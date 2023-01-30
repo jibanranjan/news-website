@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <navbar>
+      
+        <span class="Menu"style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  
+
+    <a href="https://www.inshorts.com/"> <img class="logo" src="logo_inshorts.png" alt="logo"> </a>
+
+
+    </navbar>
+    
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="switch">
+          <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+          <label for="language-toggle"></label>
+          <span class="on">English</span>
+          <span class="off">Hindi</span>
+        </div>
+
+        <hr>
+       <p class ="categories">Categories</p>
+       <div class="dropdown-content">
+        <a href="" id="all" onclick="allNews()">All News</a>
+        <a href="" id="business" onclick="businessNews()">Business</a>
+        <a href="" id="sports" onclick="sportNews()">Sports</a>
+        <a href="" id="politics" onclick="politicsNews()">Politics</a>
+        <a href="" id="tech" onclick="techNews()">Technology</a>
+        <a href="" id="entertainment" onclick="entertainmentNews()">Entertainment</a>
+        <a href="" id="science" onclick="scienceNews()">Science</a>
+        <a href="" id="health" onclick="healthNews()">Health</a>
+</div>
+      </div>
+      <div class="playstore">
+        <span class="appline">For the best experience use inshorts app on your smartphone
+        <a href=""><img class="appstore" src="appstore.png" alt="appstore"></a>
+        <a href=""><img class="googlestore" src="playstore.png" alt="playstore"></a>
+        </span>
+    </div>
+<div id="result-section">
+
+  <div id="result" class="result">
+  </div>
+</div>
+<div class="footer">
+  <footer>
+    <img class="footerlogo"src="logo_footer.png" alt="footer">
+    <div class="vl"></div>
+   <div class="footerContent">
+    <span class="copyright"><b>Inshorts</b> <i> Pte. Ltd. <br>
+        ©COPYRIGHT 2023 </i> </span>
+        <span class="terms">Terms & conditions <br>
+            Privacy Policies</span>
+
+   </div>
+   <div class="socialicon">
+    <a href="https://www.facebook.com/inshortsapp"> <i class="fa-brands fa-square-facebook fa-2x"></i> </a>
+    <a href="https://twitter.com/inshorts"> <i class="fa-brands fa-square-twitter fa-2x"></i> </a>
+    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEeXNuickVO6AAAAYYCcXdgBXMZUSlIPukGX0fCy_WdYgQ9ESd4Mvpt7P0pkh-2-9uPyUlPTgLITEigXaeGmohOOBuehurkwQmxwynmHYDT2-bMYUxU_P1ij8WaLYM-ibL709E=&original_referer=https://www.linkedin.com/&sessionRedirect=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Finshorts-group"> <i class="fa-brands fa-linkedin fa-2x"></i> </a>
+   </div>
+    <a href="https://mail.tutanota.com/login?requestedPath=%2Fmailto%23url%3Dmailto%253AAdmin%2540inshorts.com%253Fsubject%253DInshorts%252520website%252520contact%252520form"><img class="contactlogo"src="contact_icon.png" alt="contact"></a>
+  </footer>
+</div>
+      <script src="script.js"></script>
+    
+  
+</body>
+</html>
